@@ -2,41 +2,39 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body{
+    background-color: #2b2d42;
     color: #e76f51;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
+    /* margin-top: 1rem; */
     font-size: 5rem;
 }
 
 .main{
-    padding: 50px;
-    height: 100vh;
+    padding: 3rem;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2b2d42;
 }
 
 .board{
-    width: 600px;
-    margin-top: 50px;
+    width: 30rem;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
 }
 
 .cell{
-    height: 200px;
-    width: 200px;
+    height: 10rem;
+    width: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #e76f51;
-    font-size: 120px;
+    font-size: 7.5rem;
     border: 3px solid;
 }
 
@@ -64,5 +62,5 @@ button{
     border-color: #ffb703;
     font-weight: 700;
     font-size: 27px;
-    margin: 50px;
+    margin-top: 3.5rem;
 }
