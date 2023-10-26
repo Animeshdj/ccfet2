@@ -29,7 +29,7 @@ h1{
     flex-wrap: wrap;
 }
 
-.element{
+.cell{
     height: 200px;
     width: 200px;
     display: flex;
@@ -40,19 +40,19 @@ h1{
     border: 3px solid;
 }
 
-.element:nth-child(3n){
+.cell:nth-child(3n){
     border-right: none;
 }
 
-.element:nth-child(3n+1){
+.cell:nth-child(3n+1){
     border-left: none;
 }
 
-.element:first-child,.element:nth-child(2),.element:nth-child(3){
+.cell:first-child,.cell:nth-child(2),.cell:nth-child(3){
     border-top: none;
 }
 
-.element:nth-child(7),.element:nth-child(8),.element:last-child{
+.cell:nth-child(7),.cell:nth-child(8),.cell:last-child{
     border-bottom: none;
 }
 
@@ -64,4 +64,5 @@ button{
     border-color: #ffb703;
     font-weight: 700;
     font-size: 27px;
+    margin: 50px;
 }
