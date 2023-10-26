@@ -15,11 +15,11 @@ function cellactive(e) {
     const id = e.target.id
     
 
-    if(!grid[id]){;
+    if(!grid[id] & t < 9){;
         grid[id] = starttext
         e.target.innerText = starttext
 
-        if(win() !==false && t<9){
+        if(win() !==false){
             toptext.innerHTML = `${starttext} has won!`
             let wc = win()
             t = 10
@@ -68,7 +68,7 @@ function rst(){
         cell.style.backgroundColor=''
     })
     toptext.innerHTML = 'Tic Tac Toe!'
-
+    t = 0
     starttext = X
 }
 
